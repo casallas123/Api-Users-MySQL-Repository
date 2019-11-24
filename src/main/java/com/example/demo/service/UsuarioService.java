@@ -1,7 +1,7 @@
-package com.example.demo;
+package com.example.demo.service;
 
 import java.util.List;
-
+import com.example.demo.model.Usuario;
 
 //Metodos para el proyecto crud
 public interface UsuarioService {

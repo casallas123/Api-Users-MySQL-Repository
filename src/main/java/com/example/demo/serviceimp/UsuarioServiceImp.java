@@ -1,9 +1,13 @@
-package com.example.demo;
+package com.example.demo.serviceimp;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import com.example.demo.model.*;
+import com.example.demo.repository.*;
+import com.example.demo.service.*;
 
 //Implementan todos los metodos del servicio
 @Service
@@ -41,3 +45,4 @@ public class UsuarioServiceImp implements UsuarioService {
 		return p;
 	}
 }
+
